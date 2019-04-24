@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="104dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="#b12929"
+            android:gravity="center"
+            android:text="Bileko's"
+            android:textColor="#000000"
+            android:textSize="50dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="#b33f3f"
+            android:gravity="center"
+            android:text="Uma pizzaria show de bola que serve vários sabores de pizza."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="#b33f3f"
+            android:gravity="center"
+            android:text="Atende de segunda a sábado, nos horários: 11:30 as 13:00 e 18:30 as 22:00."
+            android:textColor="#000000"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+    
+</LinearLayout>
